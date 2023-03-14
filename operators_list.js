@@ -45,17 +45,37 @@ console.log('Equal to (==)');
 const m = 5;
 const n = 5;
 const o = 10;
-console.log(m == n);
-console.log(o == n);
+console.log(m == n); // True
+console.log(o == n); // False
 
 // Not equal to (!=)
 console.log('Not equal to (!=)');
+console.log(m != n); // False
+console.log(o != n);  //Ture
 // Strictly equal to (===)
+console.log('Strictly equal to (===)'); // 5 === 5 ture, 5 === '5' false
+console.log(m === n); // 
+console.log(o === n);
 // Strictly not equal to (!==)
+console.log('Not equal to (!==)');
+console.log(m !== n);
+console.log(o !== n);
 // Greater than (>)
+console.log('Greater than (>)');
+console.log(m > n);
+console.log(o > n);
 // Greater than or equal to (>=)
+console.log('Greater than or equal to (>=)');
+console.log(m >= n);
+console.log(n >= o);
 // Less than (<)
+console.log('Less than (<)');
+console.log(m < n);
+console.log(n < o);
 // Less than or equal to (<=)
+console.log('Less than or equal to (<=)');
+console.log(m <= n);
+console.log(o <= n);
 // Logical Operators:
 
 // Logical AND (&&)
